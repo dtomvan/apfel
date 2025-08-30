@@ -1,0 +1,2 @@
+* =apfel=
+=.js= files for [[https://strudel.cc][Strudel]], the JavaScript framework for "vibe coding".
