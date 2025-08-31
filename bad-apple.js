@@ -17,8 +17,6 @@ let fourotf = stack(
   s(`[~ dmx_oh]*4`).velocity(.07),
 ).crush(8).lpf(7000);
 
-let chords = chord("[D#m!2 B [C# <C Eb Gb>]]!2").slow(8).voicing().piano().gain(0.3);
-
 let bassline1 = 
   n(`[[0 [0 7]] [0 7 6 7]]!3 <[0 [7 9] 3 [9 10]] [3 [9 10] 0 [7 9]]>`)
   .slow(2)
